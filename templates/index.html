@@ -1,0 +1,10 @@
+<html>
+<head>
+    <title>Static Version Example</title>
+    <script src="{{ url_for('static', filename='js/example.js')|versioned }}"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/example.css')|versioned }}"></script>
+</head>
+<body>
+    <h1>Static Version Example</h1>
+</body>
+</html>

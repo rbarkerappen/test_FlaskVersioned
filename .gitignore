@@ -1,0 +1,7 @@
+*.pyc
+*sublime*
+*.swp
+.DS_Store
+.elasticbeanstalk/config
+.idea
+venvappenonline/
